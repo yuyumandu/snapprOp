@@ -1,9 +1,43 @@
-@CHARSET "ISO-8859-1";
-
-.p1{
-	font-size:11px;
+/* Snappr Brand Colors */
+:root {
+  --primary-color: #0D75FF;   /* Snappr Blue */
+  --accent-color: #00275B;    /* Dark Blue */
+  --background-color: #F7F7F7; /* Light Gray */
+  --approved-color: #0D75FF;
+  --pending-color: #999999;
+  --rejected-color: #FF4C4C;
 }
 
-.p2{
-	font-size:12px;
+/* Body & Page */
+body {
+  background-color: var(--background-color);
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
 }
+
+/* Navbar */
+.navbar {
+  background-color: var(--accent-color);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f0f0f0 !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #005ad8;
+  border-color: #005ad8;
+}
+
+/* Cards &*
