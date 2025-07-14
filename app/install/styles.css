@@ -40,4 +40,45 @@ body {
   border-color: #005ad8;
 }
 
-/* Cards &*
+/* Cards & Containers */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* Status Badges */
+.badge-approved {
+  background-color: var(--approved-color);
+  color: white;
+}
+
+.badge-pending {
+  background-color: var(--pending-color);
+  color: white;
+}
+
+.badge-rejected {
+  background-color: var(--rejected-color);
+  color: white;
+}
+
+/* Minimal Buttons */
+.btn {
+  border-radius: 20px;
+}
+
+/* Table Styling */
+.table thead {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
